@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Laiba!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Birthday!</h1>
+        <p>Enter your name to receive a special greeting:</p>
+        <input type="text" id="nameInput" placeholder="Your Name">
+        <button onclick="displayGreeting()">Submit</button>
+        <div id="greeting" class="greeting"></div>
+        <div class="images">
+            <img src="anime1.jpg" alt="Best Friends Anime 1">
+            <img src="anime2.jpg" alt="Best Friends Anime 2">
+        </div>
+        <button id="giftButton" onclick="revealWishes()">Get Your Gift</button>
+        <div id="wishes" class="wishes"></div>
+        <button id="complimentsButton" onclick="revealCompliments()">Do you know who you are?</button>
+        <div id="compliments" class="compliments"></div>
+        <button id="reassuranceButton" onclick="revealReassurance1()">I will always be there for you</button>
+        <div id="reassurance" class="reassurance"></div>
+        <button id="reassuranceButton" onclick="revealReassurance2()">Secret Message</button>
+        <div id="reassurance" class="reassurance"></div>
+        <button id="memoriesButton" onclick="revealMemories()">Good Memories</button>
+        <div id="memories" class="memories"></div>
+        <button id="backButton" onclick="backToHomepage()">Back to Homepage</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

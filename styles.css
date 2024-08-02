@@ -1,0 +1,103 @@
+body {
+    background-color: #e0f7fa;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #00796b;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 2px solid #00796b;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+.greeting {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #004d40;
+}
+
+.images {
+    margin-top: 20px;
+}
+
+.images img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#wishes, #compliments, #reassurance, #memories {
+    margin-top: 20px;
+    display: none;
+}
+
+.wish, .compliment, .reassurance-message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.wish:nth-child(odd), .compliment:nth-child(odd) {
+    background-color: #f1f8e9;
+    color: #33691e;
+}
+
+.wish:nth-child(even), .compliment:nth-child(even) {
+    background-color: #e8f5e9;
+    color: #1b5e20;
+}
+
+.reassurance-message {
+    background-color: #e3f2fd;
+    color: #0d47a1;
+}
+
+#backButton {
+    margin-top: 20px;
+    background-color: #0288d1;
+}
+
+#backButton:hover {
+    background-color: #01579b;
+}
+
+.memory {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
